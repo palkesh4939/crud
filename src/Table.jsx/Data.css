@@ -1,0 +1,13 @@
+.icon{
+    transform: scale(1.3);
+    cursor: pointer;
+    width: min-content;
+    color: red;
+}
+.icon1{
+    color: green;
+}
+
+.edit-icon{
+    display: flex;
+}

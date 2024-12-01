@@ -1,0 +1,10 @@
+.header-top{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(20px, 5vw, 40px);
+    font-weight:800 ;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+

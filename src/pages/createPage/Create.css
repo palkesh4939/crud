@@ -1,0 +1,80 @@
+.form-outer{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-inner{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    & input{
+        padding: 10px;
+    }
+}
+
+.image-input{
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    & input{
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        transition: 2s;
+        
+        &:active{
+            border: 1px solid black;
+            transform: scale(0.8);
+        }
+    }
+
+}
+
+input{
+    width: 100%;
+}
+
+@media (width<1000px) {
+    .form-outer{
+        width: 50%;
+    }
+}
+@media (width<1200px) {
+    .form-outer{
+        width: 40%;
+    }
+}
+
+@media (width<800px) {
+    .form-inner{
+     width: 100%;
+    }
+    .form-outer{
+        width: 40%;
+    }
+}
+
+@media (width<700px) {
+    .form-inner{
+     width: 100%;
+    }
+    .form-outer{
+        width: 80%;
+    }
+    input{
+        width: 100%;
+    }
+    img{
+        width: 100px;
+    }
+    
+}
+
+
