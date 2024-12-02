@@ -25,7 +25,7 @@ function Data({ item }) {
           
         />
       </p>
-      <Link to={`/edit/${item.S_No}`} className="edit-icon">
+      <Link to={`/crud/edit/${item.S_No}`} className="edit-icon">
         <p className="icon">
           <CiEdit />
         </p>

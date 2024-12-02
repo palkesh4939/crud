@@ -30,7 +30,7 @@ function Edit() {
 
     if (!image) {
       update(user);
-      navigate("/");
+      navigate("/crud/");
       toast.success("Edit Successfully");
     } else {
       let user_copy = {
@@ -38,7 +38,7 @@ function Edit() {
         image,
       };
       update(user_copy);
-      navigate("/");
+      navigate("/crud/");
       toast.success("Edit Successfully");
     }
   };

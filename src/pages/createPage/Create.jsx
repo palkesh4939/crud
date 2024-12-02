@@ -33,7 +33,7 @@ function Create() {
 
   }
      addData(user);
-     navigate('/')
+     navigate('/crud/')
      toast.success("Create Successfully", { icon: "✅" });
      
 
